@@ -1,0 +1,18 @@
+.mainHeader{
+height: 12vw;
+width: 100vw;
+background-color: rgb(143, 141, 47);
+}
+.cardWall
+{
+  min-height: 70vw;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.mainHeader h1{
+  margin: 0px;
+}

@@ -1,0 +1,70 @@
+.Box
+{
+    min-height: 300px;
+    width: 80vw;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    margin: 1%;
+}
+.Box header{
+    height: 18vh;
+    width: 98vw;
+    padding: 1.5vh .75vw;
+    border-radius: 8px 8px 0px 0px;
+    /* background-color: rgb(2, 50, 95); */
+    background-color: rgb(48, 48, 48);
+}
+.img ,.content
+{
+    height: 52vh;
+    border-radius: 0px 0px 8px 0px;
+    background-color: rgb(84, 84, 84);
+}
+.img{
+    width: 30vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size:100px;
+    text-align: center;
+    border-radius: 0px 0px 0px 8px;
+
+}
+.content{
+    width: 48vw;
+   padding: 2vh 1vw 0vw 1vw;
+   height: 50vh;
+}
+.label
+{
+    width: fit-content;
+    padding: .3vw .5vw;
+    background-color: rgb(54, 54, 54);
+    border: 2px solid rgb(153, 153, 153);
+    border-radius: 8px;
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+}
+.labelBox
+{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    gap:1.5vh;
+    
+   
+
+}
+.title{
+    color: rgb(189, 196, 201);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+h3{
+    font-size: 20px;
+    color: rgb(178, 186, 191);
+    word-spacing: 5px;
+    letter-spacing: .5px;
+}
