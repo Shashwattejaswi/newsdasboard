@@ -1,16 +1,17 @@
 .Box
 {
-    min-height: 300px;
+    height: auto;
     width: 80vw;
     border-radius: 8px;
     display: flex;
     flex-wrap: wrap;
-    background-color: aquamarine;
+    justify-content: center;
+    background-color: rgb(164, 140, 197);
     margin: 1%;
 }
 .Box header{
-    height: 18vh;
-    width: 98vw;
+    height: auto;
+    width: 100%;
     padding: 1.5vh .75vw;
     border-radius: 8px 8px 0px 0px;
     /* background-color: rgb(2, 50, 95); */
@@ -20,10 +21,15 @@
 {
     height: 52vh;
     border-radius: 0px 0px 8px 0px;
-    background-color: rgb(84, 84, 84);
+    
 }
 .img{
-    width: 30vw;
+    margin: 2vh 1vw;
+    width: 33vw;
+    min-width:300px;
+    height: 48vh;
+    border: 0px solid black;
+    border-radius: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     font-size:100px;
@@ -32,9 +38,10 @@
 
 }
 .content{
-    width: 48vw;
-   padding: 2vh 1vw 0vw 1vw;
-   height: 50vh;
+    width: 41vw;
+    min-width: 300px;
+   padding: 2vh 2vw 0vw 2vw;
+   height: auto;
 }
 .label
 {
@@ -45,6 +52,7 @@
     border-radius: 8px;
     color: rgb(153, 153, 153);
     text-decoration: none;
+    outline: 0px;
 }
 .labelBox
 {
@@ -58,13 +66,14 @@
 
 }
 .title{
-    color: rgb(189, 196, 201);
+    color: rgb(231, 235, 238);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 h3{
-    font-size: 20px;
-    color: rgb(178, 186, 191);
+    font-size: 16px;
+    color: rgb(213, 226, 234);
     word-spacing: 5px;
     letter-spacing: .5px;
 }
+
